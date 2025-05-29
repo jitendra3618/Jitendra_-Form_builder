@@ -15,6 +15,98 @@ This is a **Form Builder Web App** built using **React Remix** with **Tailwind C
 - 💾 **Local Storage** – For saving form data (can be extended to DB)
 
 ---
+## 📌 Features & Tasks
+
+### 1. Drag-and-Drop Interface for Adding Components  
+**Description:** Users can drag and drop various form fields like Text, Textarea, Dropdown, Checkbox, and Date into the form.  
+**Implemented In:** `app/components/FormBuilder.jsx`, `app/components/DraggableField.jsx`
+
+---
+
+### 2. Reorder Fields Using Drag Actions  
+**Description:** Fields can be rearranged within the form using drag-and-drop functionality.  
+**Implemented In:** `app/components/FormBuilder.jsx`, `app/utils/dragUtils.js`
+
+---
+
+### 3. Field Configuration Panel  
+**Description:**  
+Each field supports configuration options such as:
+- Label
+- Placeholder
+- Required
+- Help Text
+- Options (for Dropdowns)  
+**Implemented In:** `app/components/FieldConfigPanel.jsx`, `app/redux/formSlice.js`
+
+---
+
+### 4. Real-Time Form Preview with Validations  
+**Validations Supported:**
+- Required fields
+- Min/Max length
+- Pattern matching (email/phone)  
+**Implemented In:** `app/routes/preview.jsx`, `app/components/FormPreview.jsx`
+
+---
+
+### 5. Preview Modes  
+**Description:** Switch between Desktop, Tablet, and Mobile views.  
+**Implemented In:** `app/components/PreviewModeSwitcher.jsx`, `app/routes/preview.jsx`
+
+---
+
+### 6. Template Loading & Saving  
+**Features:**
+- Load predefined templates (e.g., Contact Us)
+- Save custom templates (locally or via API)  
+**Implemented In:** `app/utils/templateManager.js`, `app/components/TemplateLoader.jsx`
+
+---
+
+### 7. Multi-Step Form Functionality  
+**Features:**
+- Step-by-step navigation
+- Validation on each step
+- Visual progress indicator  
+**Implemented In:** `app/components/MultiStepForm.jsx`, `app/routes/preview.jsx`
+
+---
+
+### 8. Shareable Form ID & Public View  
+**Features:**
+- Generate shareable form URL
+- Load form by ID for public filling
+- Forms stored in localStorage or backend  
+**Implemented In:** `app/routes/form/$formId.jsx`, `app/utils/storage.js`
+
+---
+
+## 🌟 Bonus Tasks
+
+### ✅ Auto-Save to Local Storage  
+**Description:** Forms are auto-saved locally to prevent data loss.  
+**Implemented In:** `app/utils/storage.js`, `app/redux/formSlice.js`
+
+---
+
+### ✅ View Submitted Responses  
+**Features:**
+- View submissions by form ID
+- List of responses per form  
+**Implemented In:** `app/routes/responses.jsx`, `app/utils/responseManager.js`
+
+---
+
+### ✅ Dark/Light Theme  
+**Description:** Users can toggle between dark and light modes.  
+**Implemented In:** `app/root.jsx`, `app/redux/formSlice.js`
+
+---
+
+### ✅ Undo/Redo Functionality  
+**Description:** Easily revert or repeat recent changes made in form design.  
+**Implemented In:** `app/utils/historyManager.js`, `app/components/UndoRedoButtons.jsx`
 
 ## ✅ Assignment Requirements & Implementations
 
