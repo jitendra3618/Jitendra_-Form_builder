@@ -4,6 +4,9 @@
 This is a **Form Builder Web App** built using **React Remix** with **Tailwind CSS** and **Redux**. It enables users to easily create custom forms via drag-and-drop, preview them live, share the forms with others, and view collected responses.
 ## Screenshots
 ![Screenshot (184)](https://github.com/user-attachments/assets/bcc0a491-c7a7-4c62-a856-a5c72704aa7b)
+![Screenshot (185)](https://github.com/user-attachments/assets/ada7fdb0-9c5e-4faa-9aa3-faa1e4a222c0)
+![Screenshot (186)](https://github.com/user-attachments/assets/47492d71-c39c-42d3-bfd0-ce68ef3fe045)
+![Screenshot (187)](https://github.com/user-attachments/assets/b2db7367-f685-47cd-afec-84a4b079bf91)
 
 
 ---
