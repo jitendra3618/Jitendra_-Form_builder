@@ -94,13 +94,7 @@ Frontend Developer | React & Remix Enthusiast
 📄 License
 This project is licensed under the MIT License.
 
-yaml
-Copy
-Edit
 
----
-
-Let me know if you'd like the same content saved into an actual `README.md` file. I can generate and share it with you.
 
 
 
