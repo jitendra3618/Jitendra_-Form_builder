@@ -2,7 +2,7 @@
 # 🛠️ Form Builder Application
 
 This is a **Form Builder Web App** built using **React Remix** with **Tailwind CSS** and **Redux**. It enables users to easily create custom forms via drag-and-drop, preview them live, share the forms with others, and view collected responses.
-## Screenshots
+## Screenshots📸
 ![Screenshot (184)](https://github.com/user-attachments/assets/bcc0a491-c7a7-4c62-a856-a5c72704aa7b)
 ![Screenshot (185)](https://github.com/user-attachments/assets/ada7fdb0-9c5e-4faa-9aa3-faa1e4a222c0)
 ![Screenshot (186)](https://github.com/user-attachments/assets/47492d71-c39c-42d3-bfd0-ce68ef3fe045)
@@ -169,30 +169,28 @@ Edit
 git clone https://github.com/your-username/Jitendra_-Form_builder.git
 
 # 2. Install dependencies
-cd my-remix-app
-npm install
-npm run dev
+cd my-remix-app <br>
+npm install <br>
+npm run dev <br>
 
 # 3. Run the development server
 npm run dev
-📸 Screenshots
-Form Builder	Live Preview	Responses
-✅ Screenshot	✅ Screenshot	✅ Screenshot
 
-📚 Future Improvements
-🔒 Add authentication (e.g., JWT or OAuth)
 
-☁️ Connect to a backend (Node.js, Firebase, or Supabase)
+📚 Future Improvements<br>
+🔒 Add authentication (e.g., JWT or OAuth)<br>
 
-📤 Export form as PDF or JSON
+☁️ Connect to a backend (Node.js, Firebase, or Supabase)<br>
 
-💬 Add validation rules and error messages
+📤 Export form as PDF or JSON<br>
 
-🧑‍💻 Author
-Jitendra Kumar
+💬 Add validation rules and error messages<br>
+
+🧑‍💻 Author<br>
+Jitendra Kumar <br>
 Frontend Developer | React & Remix Enthusiast
 
-📄 License
+📄 License<br>
 This project is licensed under the MIT License.
 
 
