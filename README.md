@@ -159,6 +159,8 @@ my-remix-app/
 ├── tailwind.config.ts      # Tailwind config (TS version, optional)
 ├── postcss.config.js       # PostCSS config
 └── README.md               # You're here!
+
+```
 📦 Installation & Setup
 bash
 Copy
