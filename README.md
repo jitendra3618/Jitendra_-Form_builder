@@ -165,12 +165,13 @@ my-remix-app/
 bash
 Copy
 Edit
-# 1. Clone the repo
-git clone https://github.com/your-username/form-builder-remix.git
-cd form-builder-remix
+# 1. Clone the repository
+git clone https://github.com/your-username/Jitendra_-Form_builder.git
 
 # 2. Install dependencies
+cd my-remix-app
 npm install
+npm run dev
 
 # 3. Run the development server
 npm run dev
