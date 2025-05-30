@@ -192,7 +192,7 @@ npm run dev <br>
 npm run dev
 
 
-📚 Future Improvements<br>
+# Future Improvements<br>
 🔒 Add authentication (e.g., JWT or OAuth)<br>
 
 ☁️ Connect to a backend (Node.js, Firebase, or Supabase)<br>
@@ -201,7 +201,7 @@ npm run dev
 
 💬 Add validation rules and error messages<br>
 
-🧑‍💻 Author<br>
+## Author<br> 🧑‍💻
 Jitendra Kumar <br>
 Frontend Developer | React & Remix Enthusiast
 
