@@ -144,22 +144,37 @@ Each field supports configuration options such as:
 ## 📁 Project Structure
 
 ```bash
-my-remix-app/
+MY-REMIX-APP/
 ├── app/
-│   ├── components/         # UI components (FormBuilder, Preview, etc.)
-│   ├── routes/             # Remix route files
-│   │   ├── index.jsx       # Home page with form builder
-│   │   ├── preview.jsx     # Live preview of the form
-│   │   └── responses.jsx   # View submitted responses
-│   ├── redux/              # Redux store and slices
-│   ├── styles/             # Tailwind and global CSS
-│   └── root.jsx            # App root entry
-├── public/                 # Static files
-├── tailwind.config.js      # Tailwind config (JS version)
-├── tailwind.config.ts      # Tailwind config (TS version, optional)
-├── postcss.config.js       # PostCSS config
-└── README.md               # You're here!
-
+│ ├── components/
+│ │ ├── DragAndDropCanvas.jsx
+│ │ ├── FieldSettings.jsx
+│ │ ├── FormBuilder.jsx
+│ │ ├── FormPreview.jsx
+│ │ ├── MultiStepForm.jsx
+│ │ ├── Templates.jsx
+│ │ └── ThemeToggle.jsx
+│ ├── redux/
+│ │ ├── formSlice.js
+│ │ └── store.js
+│ ├── routes/
+│ │ ├── index.jsx
+│ │ ├── preview.jsx
+│ │ └── responses.jsx
+│ └── styles/
+│ └── tailwind.css
+│ └── root.jsx
+├── build/
+├── node_modules/
+├── public/
+├── .env
+├── .eslintrc.cjs
+├── .gitignore
+├── package-lock.json
+├── package.json
+├── postcss.config.cjs
+├── README.md
+├── tailwind.config.js
 ```
 📦 Installation & Setup
 bash
