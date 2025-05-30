@@ -202,8 +202,8 @@ npm run dev
 💬 Add validation rules and error messages<br>
 
 ## Author<br> 🧑‍💻
-Jitendra Kumar <br>
-Frontend Developer | React & Remix Enthusiast
+# Jitendra Kumar <br>
+# Frontend Developer | React & Remix Enthusiast
 
 📄 License<br>
 This project is licensed under the MIT License.
